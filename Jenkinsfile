@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git url: 'https://github.com/aashirilyas/gs-spring-boot.git', branch: 'master'
+                git url: 'https://github.com/aashirilyas/gs-spring-boot.git', branch: 'main'
             }
         }
         stage('Build') {
